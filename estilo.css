@@ -129,18 +129,16 @@ footer{
 }
 
 
+/*Large*/
+@media (min-width: 992px) and (max-width: 1199)
+{ 
 
-
-
-/*X Large*/
-@media (min-width: 1200px) and (max-width: 1399px)
-{
 main{
 	width: 90%;
-	height: 1150px;
+	height: 3000px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #ffffff;
+	background-color: red;
 }
 
 #texto1{
@@ -161,12 +159,61 @@ main{
 	margin-right: 1px;
 }
 
+.noesta{display: none;}
+
+.foto{
+	margin-top: 5%;
+}
+
+.agus{
+	color: #264d4f;
+	float: left;
+	margin-left: 5px;
+	margin-top: 2%;
+}
+
+#logo{
+	float: right;
+	width: 20px;
+}
+
+#logo li{
+	display: inline;
+}
+
+#logo li img{
+	text-decoration: none;
+	padding-top: 5%;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+}
+}
+
+/*X Large*/
+@media (min-width: 1200px) and (max-width: 1399px)
+{
+main{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #264d4f;
+}
+
+
+
+#imagenes{
+	float: right;
+	margin-right: 1px;
+}
+
 #texto1{
 	float: left;
-	width: 600px;
+	width: 520px;
 	font-size: 20px;
 	margin-top: 10%;
-	margin-left: 5%;
+	margin-left: 2%;
 	color: #000000;
 	background-color: #d1fdff;
 	border: 5px outset #1C6EA4;
@@ -185,18 +232,25 @@ main{
 {  
 
 main{
-	width: 100%;
-	height: 1130px;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #ffffff;
+	background-color: #264d4f;
+}
+
+header{
+	width: 100%;
+	height: 200px;
+	background-image: url(fq2.png);
+	background-color: #7dc4c7;
+	background-repeat: no-repeat;
 }
 
 #texto1{
 	float: left;
 	width: 600px;
 	font-size: 20px;
-	margin-top: 10%;
+	margin-top: 8%;
 	margin-left: 5%;
 	color: #000000;
 	background-color: #d1fdff;
